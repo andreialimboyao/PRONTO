@@ -1,0 +1,726 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing.Primitives" name="System.Drawing.Primitives, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Back.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>0, 0</value>
+  </data>
+  <data name="Back.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>42, 22</value>
+  </data>
+  <assembly alias="System.Private.CoreLib" name="System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e" />
+  <data name="Back.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>12</value>
+  </data>
+  <data name="Back.Text" xml:space="preserve">
+    <value>&lt;</value>
+  </data>
+  <data name="&gt;&gt;Back.Name" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="&gt;&gt;Back.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Back.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Back.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Transactions.AccessibleDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Transactions.AccessibleName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PickMonth.Items" xml:space="preserve">
+    <value>January</value>
+  </data>
+  <data name="PickMonth.Items1" xml:space="preserve">
+    <value>February</value>
+  </data>
+  <data name="PickMonth.Items2" xml:space="preserve">
+    <value>March</value>
+  </data>
+  <data name="PickMonth.Items3" xml:space="preserve">
+    <value>April</value>
+  </data>
+  <data name="PickMonth.Items4" xml:space="preserve">
+    <value>May</value>
+  </data>
+  <data name="PickMonth.Items5" xml:space="preserve">
+    <value>June</value>
+  </data>
+  <data name="PickMonth.Items6" xml:space="preserve">
+    <value>July</value>
+  </data>
+  <data name="PickMonth.Items7" xml:space="preserve">
+    <value>August</value>
+  </data>
+  <data name="PickMonth.Items8" xml:space="preserve">
+    <value>September</value>
+  </data>
+  <data name="PickMonth.Items9" xml:space="preserve">
+    <value>October</value>
+  </data>
+  <data name="PickMonth.Items10" xml:space="preserve">
+    <value>November</value>
+  </data>
+  <data name="PickMonth.Items11" xml:space="preserve">
+    <value>December</value>
+  </data>
+  <data name="PickMonth.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>3, 13</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="PickMonth.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="PickMonth.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>278, 23</value>
+  </data>
+  <data name="PickMonth.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;PickMonth.Name" xml:space="preserve">
+    <value>PickMonth</value>
+  </data>
+  <data name="&gt;&gt;PickMonth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PickMonth.Parent" xml:space="preserve">
+    <value>MonthlyTransactions</value>
+  </data>
+  <data name="&gt;&gt;PickMonth.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="MonthlyTrans.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>3, 39</value>
+  </data>
+  <data name="MonthlyTrans.RowHeadersWidth" type="System.Int32, System.Private.CoreLib">
+    <value>51</value>
+  </data>
+  <data name="MonthlyTrans.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>277, 358</value>
+  </data>
+  <data name="MonthlyTrans.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>16</value>
+  </data>
+  <data name="MonthlyTrans.Text" xml:space="preserve">
+    <value>dataGridView1</value>
+  </data>
+  <data name="&gt;&gt;MonthlyTrans.Name" xml:space="preserve">
+    <value>MonthlyTrans</value>
+  </data>
+  <data name="&gt;&gt;MonthlyTrans.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MonthlyTrans.Parent" xml:space="preserve">
+    <value>MonthlyTransactions</value>
+  </data>
+  <data name="&gt;&gt;MonthlyTrans.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ExportMonthly.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>83, 402</value>
+  </data>
+  <data name="ExportMonthly.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="ExportMonthly.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>93, 32</value>
+  </data>
+  <data name="ExportMonthly.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>0</value>
+  </data>
+  <data name="ExportMonthly.Text" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="&gt;&gt;ExportMonthly.Name" xml:space="preserve">
+    <value>ExportMonthly</value>
+  </data>
+  <data name="&gt;&gt;ExportMonthly.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ExportMonthly.Parent" xml:space="preserve">
+    <value>MonthlyTransactions</value>
+  </data>
+  <data name="&gt;&gt;ExportMonthly.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="MonthlyTransactions.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>4, 24</value>
+  </data>
+  <data name="MonthlyTransactions.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="MonthlyTransactions.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="MonthlyTransactions.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>282, 438</value>
+  </data>
+  <data name="MonthlyTransactions.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>0</value>
+  </data>
+  <data name="MonthlyTransactions.Text" xml:space="preserve">
+    <value>Monthly</value>
+  </data>
+  <data name="&gt;&gt;MonthlyTransactions.Name" xml:space="preserve">
+    <value>MonthlyTransactions</value>
+  </data>
+  <data name="&gt;&gt;MonthlyTransactions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MonthlyTransactions.Parent" xml:space="preserve">
+    <value>Transactions</value>
+  </data>
+  <data name="&gt;&gt;MonthlyTransactions.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PickMonth1.Items" xml:space="preserve">
+    <value>January</value>
+  </data>
+  <data name="PickMonth1.Items1" xml:space="preserve">
+    <value>February</value>
+  </data>
+  <data name="PickMonth1.Items2" xml:space="preserve">
+    <value>March</value>
+  </data>
+  <data name="PickMonth1.Items3" xml:space="preserve">
+    <value>April</value>
+  </data>
+  <data name="PickMonth1.Items4" xml:space="preserve">
+    <value>May</value>
+  </data>
+  <data name="PickMonth1.Items5" xml:space="preserve">
+    <value>June</value>
+  </data>
+  <data name="PickMonth1.Items6" xml:space="preserve">
+    <value>July</value>
+  </data>
+  <data name="PickMonth1.Items7" xml:space="preserve">
+    <value>August</value>
+  </data>
+  <data name="PickMonth1.Items8" xml:space="preserve">
+    <value>September</value>
+  </data>
+  <data name="PickMonth1.Items9" xml:space="preserve">
+    <value>October</value>
+  </data>
+  <data name="PickMonth1.Items10" xml:space="preserve">
+    <value>November</value>
+  </data>
+  <data name="PickMonth1.Items11" xml:space="preserve">
+    <value>December</value>
+  </data>
+  <data name="PickMonth1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>7, 14</value>
+  </data>
+  <data name="PickMonth1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="PickMonth1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>129, 23</value>
+  </data>
+  <data name="PickMonth1.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;PickMonth1.Name" xml:space="preserve">
+    <value>PickMonth1</value>
+  </data>
+  <data name="&gt;&gt;PickMonth1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PickMonth1.Parent" xml:space="preserve">
+    <value>Weekly</value>
+  </data>
+  <data name="&gt;&gt;PickMonth1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PickWeek.Items" xml:space="preserve">
+    <value>Week 1</value>
+  </data>
+  <data name="PickWeek.Items1" xml:space="preserve">
+    <value>Week 2</value>
+  </data>
+  <data name="PickWeek.Items2" xml:space="preserve">
+    <value>Week 3</value>
+  </data>
+  <data name="PickWeek.Items3" xml:space="preserve">
+    <value>Week 4</value>
+  </data>
+  <data name="PickWeek.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>146, 14</value>
+  </data>
+  <data name="PickWeek.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="PickWeek.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>129, 23</value>
+  </data>
+  <data name="PickWeek.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;PickWeek.Name" xml:space="preserve">
+    <value>PickWeek</value>
+  </data>
+  <data name="&gt;&gt;PickWeek.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PickWeek.Parent" xml:space="preserve">
+    <value>Weekly</value>
+  </data>
+  <data name="&gt;&gt;PickWeek.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="WeeklyTransactions.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>3, 40</value>
+  </data>
+  <data name="WeeklyTransactions.RowHeadersWidth" type="System.Int32, System.Private.CoreLib">
+    <value>51</value>
+  </data>
+  <data name="WeeklyTransactions.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>277, 357</value>
+  </data>
+  <data name="WeeklyTransactions.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>16</value>
+  </data>
+  <data name="WeeklyTransactions.Text" xml:space="preserve">
+    <value>dataGridView2</value>
+  </data>
+  <data name="&gt;&gt;WeeklyTransactions.Name" xml:space="preserve">
+    <value>WeeklyTransactions</value>
+  </data>
+  <data name="&gt;&gt;WeeklyTransactions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WeeklyTransactions.Parent" xml:space="preserve">
+    <value>Weekly</value>
+  </data>
+  <data name="&gt;&gt;WeeklyTransactions.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ExportWeekly.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>90, 402</value>
+  </data>
+  <data name="ExportWeekly.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="ExportWeekly.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>93, 32</value>
+  </data>
+  <data name="ExportWeekly.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>0</value>
+  </data>
+  <data name="ExportWeekly.Text" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="&gt;&gt;ExportWeekly.Name" xml:space="preserve">
+    <value>ExportWeekly</value>
+  </data>
+  <data name="&gt;&gt;ExportWeekly.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ExportWeekly.Parent" xml:space="preserve">
+    <value>Weekly</value>
+  </data>
+  <data name="&gt;&gt;ExportWeekly.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Weekly.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>4, 24</value>
+  </data>
+  <data name="Weekly.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="Weekly.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="Weekly.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>282, 438</value>
+  </data>
+  <data name="Weekly.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>1</value>
+  </data>
+  <data name="Weekly.Text" xml:space="preserve">
+    <value>Weekly</value>
+  </data>
+  <data name="&gt;&gt;Weekly.Name" xml:space="preserve">
+    <value>Weekly</value>
+  </data>
+  <data name="&gt;&gt;Weekly.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Weekly.Parent" xml:space="preserve">
+    <value>Transactions</value>
+  </data>
+  <data name="&gt;&gt;Weekly.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="PickMonth2.Items" xml:space="preserve">
+    <value>January</value>
+  </data>
+  <data name="PickMonth2.Items1" xml:space="preserve">
+    <value>February</value>
+  </data>
+  <data name="PickMonth2.Items2" xml:space="preserve">
+    <value>March</value>
+  </data>
+  <data name="PickMonth2.Items3" xml:space="preserve">
+    <value>April</value>
+  </data>
+  <data name="PickMonth2.Items4" xml:space="preserve">
+    <value>May</value>
+  </data>
+  <data name="PickMonth2.Items5" xml:space="preserve">
+    <value>June</value>
+  </data>
+  <data name="PickMonth2.Items6" xml:space="preserve">
+    <value>July</value>
+  </data>
+  <data name="PickMonth2.Items7" xml:space="preserve">
+    <value>August</value>
+  </data>
+  <data name="PickMonth2.Items8" xml:space="preserve">
+    <value>September</value>
+  </data>
+  <data name="PickMonth2.Items9" xml:space="preserve">
+    <value>October</value>
+  </data>
+  <data name="PickMonth2.Items10" xml:space="preserve">
+    <value>November</value>
+  </data>
+  <data name="PickMonth2.Items11" xml:space="preserve">
+    <value>December</value>
+  </data>
+  <data name="PickMonth2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>7, 14</value>
+  </data>
+  <data name="PickMonth2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="PickMonth2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>129, 23</value>
+  </data>
+  <data name="PickMonth2.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;PickMonth2.Name" xml:space="preserve">
+    <value>PickMonth2</value>
+  </data>
+  <data name="&gt;&gt;PickMonth2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PickMonth2.Parent" xml:space="preserve">
+    <value>Daily</value>
+  </data>
+  <data name="&gt;&gt;PickMonth2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PickDay.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="PickDay.Items1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="PickDay.Items2" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="PickDay.Items3" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="PickDay.Items4" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="PickDay.Items5" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="PickDay.Items6" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="PickDay.Items7" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="PickDay.Items8" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="PickDay.Items9" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="PickDay.Items10" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="PickDay.Items11" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="PickDay.Items12" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="PickDay.Items13" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="PickDay.Items14" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="PickDay.Items15" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="PickDay.Items16" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="PickDay.Items17" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="PickDay.Items18" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="PickDay.Items19" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="PickDay.Items20" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="PickDay.Items21" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="PickDay.Items22" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="PickDay.Items23" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="PickDay.Items24" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="PickDay.Items25" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="PickDay.Items26" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="PickDay.Items27" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="PickDay.Items28" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="PickDay.Items29" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="PickDay.Items30" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="PickDay.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>146, 14</value>
+  </data>
+  <data name="PickDay.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="PickDay.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>129, 23</value>
+  </data>
+  <data name="PickDay.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;PickDay.Name" xml:space="preserve">
+    <value>PickDay</value>
+  </data>
+  <data name="&gt;&gt;PickDay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PickDay.Parent" xml:space="preserve">
+    <value>Daily</value>
+  </data>
+  <data name="&gt;&gt;PickDay.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ExportDaily.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>93, 402</value>
+  </data>
+  <data name="ExportDaily.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="ExportDaily.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>93, 32</value>
+  </data>
+  <data name="ExportDaily.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>0</value>
+  </data>
+  <data name="ExportDaily.Text" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="&gt;&gt;ExportDaily.Name" xml:space="preserve">
+    <value>ExportDaily</value>
+  </data>
+  <data name="&gt;&gt;ExportDaily.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ExportDaily.Parent" xml:space="preserve">
+    <value>Daily</value>
+  </data>
+  <data name="&gt;&gt;ExportDaily.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="DailyTransactions.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>3, 40</value>
+  </data>
+  <data name="DailyTransactions.RowHeadersWidth" type="System.Int32, System.Private.CoreLib">
+    <value>51</value>
+  </data>
+  <data name="DailyTransactions.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>277, 354</value>
+  </data>
+  <data name="DailyTransactions.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>16</value>
+  </data>
+  <data name="DailyTransactions.Text" xml:space="preserve">
+    <value>dataGridView2</value>
+  </data>
+  <data name="&gt;&gt;DailyTransactions.Name" xml:space="preserve">
+    <value>DailyTransactions</value>
+  </data>
+  <data name="&gt;&gt;DailyTransactions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DailyTransactions.Parent" xml:space="preserve">
+    <value>Daily</value>
+  </data>
+  <data name="&gt;&gt;DailyTransactions.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Daily.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>4, 24</value>
+  </data>
+  <data name="Daily.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="Daily.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="Daily.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>282, 438</value>
+  </data>
+  <data name="Daily.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>2</value>
+  </data>
+  <data name="Daily.Text" xml:space="preserve">
+    <value>Daily</value>
+  </data>
+  <data name="&gt;&gt;Daily.Name" xml:space="preserve">
+    <value>Daily</value>
+  </data>
+  <data name="&gt;&gt;Daily.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Daily.Parent" xml:space="preserve">
+    <value>Transactions</value>
+  </data>
+  <data name="&gt;&gt;Daily.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Transactions.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>0, 27</value>
+  </data>
+  <data name="Transactions.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="Transactions.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>290, 466</value>
+  </data>
+  <data name="Transactions.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;Transactions.Name" xml:space="preserve">
+    <value>Transactions</value>
+  </data>
+  <data name="&gt;&gt;Transactions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Transactions.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Transactions.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing.Primitives">
+    <value>7, 15</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>289, 492</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Transaction_Report</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Transaction_Report</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
